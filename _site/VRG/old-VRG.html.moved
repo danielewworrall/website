@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="VRG.html">Reading Group</a></li>
+  </ul>
+
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div id="publications"><h1>UCL Computer Vision Reading Group</h1>
+          We meet every Wednesday in Room 405, 66-72 Gower Street, 1600-1700 to
+          discuss recent (and sometimes old) papers in computer vision and related topics.
+          <br>
+          <br>
+          If you would like to present or suggest a paper, topic, or speaker,
+          please feel free to contact me at d.worrall at cs.ucl.ac.uk.
+          <br>
+          <br>
+          Slides from previous presentations can be found <a href="https://drive.google.com/drive/folders/0B7WaAfgqz0r4fmY3R0FUdng4VXpvMWdjWm9CdXh0eFVTQkprZFl2S3pJYmdUNzZoNHVjY2M">here</a>.
+          <br>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <h1>Schedule</h1>
+        <table class="myTable">
+          <tbody>
+            <tr>
+              <th width=15%>Date</th>
+              <th width=20%>Presenter</th>
+              <th width=55%>Topic</th>
+              <th width=10%>Where</th>
+            </tr>
+            <tr>
+              <th width=15%>4 Oct 2017</th>
+              <th width=20%></th>
+              <th width=55%></th>
+              <th width=10%>TBC</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <h1>Previous talks</h1>
+        <table class="myTable">
+          <tbody>
+            <tr>
+              <th width=10%>Date</th>
+              <th width=5%>Slides</th>
+              <th width=15%>Presenter</th>
+              <th width=60%>Topic</th>
+              <th width=10%>Where</th>
+            </tr>
+            <tr>
+              <th width=10%>27 Sept 2017</th>
+              <th><a href="http://graphics.stanford.edu/projects/densecrf/densecrf_nips2011.pdf"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/d.turmukhambetov/">Daniyar Turmukhambetov</a></th>
+              <th width=60%><a href="https://arxiv.org/pdf/1210.5644.pdf">Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</a></th>
+              <th width=10%>6.12a, MPEB</th>
+            </tr>
+            <tr>
+              <th width=10%>20 Sept 2017</th>
+              <th width=5%></th>
+              <th width=15%></th>
+              <th width=60%>BMVC and MICCAI roundup</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>6 Sept 2017</th>
+              <th width=5%></th>
+              <th width=15%><a href="https://www.ics.usi.ch/index.php/people-detail-page/268-federico-monti">Federico Monti</a></th>
+              <th width=60%>Invited talk: Geometric Deep Learning, going beyond Euclidean structured data</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>23 August 2017</th>
+              <th><a href="https://drive.google.com/open?id=151j6Z8Kaeown9Iwsirs68pZ0las48ZvJ0eezKXiQp0M"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/M.Firman/">Michael Firman</a></th>
+              <th width=60%>Deep Active Learning</th>
+              <th width=10%>6.12 MPEB</th>
+            </tr>
+            <tr>
+             <th width=10%>19 July 2017</th>
+             <th><a href="https://drive.google.com/open?id=0B5jQgblBJlgWenJRMGFTRFpZZUk"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/R.Yu/">Rui Yu</a></th>
+             <th width=60%><a href="https://arxiv.org/abs/1705.03633">Inferring and Executing Programs for Visual Reasoning</a></th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>12 July 2017</th>
+             <th><a href="https://drive.google.com/open?id=0B5jQgblBJlgWQmVsbnd1X3FnRGs"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/A.Penate-Sanchez.html">Adri&aacuten Pe&ntildeate Sanchez</a></th>
+             <th width=60%><a href="http://ai.stanford.edu/~haosu/papers/SI2PC_arxiv_submit.pdf">A Point Set Generation Network for 3D Object Reconstruction from a Single Image</a></th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>5 July 2017</th>             
+             <th><a href="https://drive.google.com/open?id=0B5jQgblBJlgWaU1XQ3ZSOWE5NE0"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%>Martin R&uumlnz</th>
+             <th width=60%>Towards Learned SLAM</th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>21 June 2017</th>
+             <th><a href="https://drive.google.com/open?id=1moR6AVF2fpa3QGxkG1xLVbtMhC4BIINvSE57rMFBwmU"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/D.Worrall/index.html">Daniel Worrall</a></th>
+             <th width=60%><a href="http://www.cv-foundation.org/openaccess/content_iccv_2015_workshops/w22/papers/Masci_Geodesic_Convolutional_Neural_ICCV_2015_paper.pdf">Geodesic Convolutional Neural Networks on Riemannian Manifolds</a></th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>14 June 2017</th>
+             <th><a href="https://drive.google.com/open?id=0B5jQgblBJlgWYkF5dGVwcHFubVk"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="https://www.ucl.ac.uk/icn/people/attention-and-cognitive-control/attention-accordian/alina-bialkowski">Alina Bialkowski</a></th>
+             <th width=60%><a href="https://arxiv.org/abs/1611.08215">Learning Where to Attend Like a Human Driver</th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>7 June 2017</th>
+             <th><a href="https://drive.google.com/open?id=0B5jQgblBJlgWZ0prQXFiWnlwTTA"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/E.Skordos.html">Stratos Skordos</a></th>
+             <th width=60%><a href="https://arxiv.org/abs/1706.00384">Deep Mutual Learning</a></th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>31 May 2017</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%><a href="http://vladlen.info/publications/dilated-residual-networks/">Dilated residual networks</a>,
+                <br><a href="https://arxiv.org/abs/1705.07832">Concrete Dropout</a>
+                <br><a href="https://arxiv.org/pdf/1611.01144.pdf">Categorical Reparameterization with Gumbel-Softmax</a>
+                <br><a href="https://arxiv.org/abs/1609.02200">Discrete Variational Autoencoders</a>
+                <br><a href="https://arxiv.org/abs/1603.04042">Deep Interactive Object Selection</a>
+                <br><a href="http://www.robots.ox.ac.uk/~szheng/papers/CRFasRNN.pdf">Conditional Random Fields as Recurrent Neural Networks</a>
+                <br><a href="https://arxiv.org/abs/1612.00404">Learning Shape Abstractions by Assembling Volumetric Primitives</a>
+                <br><a href="https://arxiv.org/abs/1612.06699">Unsupervised Perceptual Rewards for Imitation Learning</a>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>17 May 2017</th>
+             <th width=5%><a href="https://drive.google.com/open?id=1dnHpl8_dETLkTPd9Q88AZkBYxSOZpLGpPyeB1NUZaIE"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/M.Firman/">Michael Firman</a></th>
+             <th width=60%>Image Colourisation: A Tutorial</th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+             <th width=10%>3 May 2017</th>
+             <th width=5%><a href="https://drive.google.com/open?id=1Srt2TSvta8oKuBC2TiAasd_mym9sv0DBom9RtN_OLok"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+             <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/D.Tome.html">Denis Tom&eacute</a></th>
+             <th width=60%><a href="https://arxiv.org/pdf/1704.03477.pdf">A Neural Representation of Sketch Drawings</a></th>
+             <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>26 Apr 2017</th>
+              <th width=5%></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/d.turmukhambetov/">Daniyar Turmukhambetov</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1701.04862">Towards Principled Methods for Training Generative Adversarial Networks</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>12 Apr 2017</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%><a href="https://arxiv.org/abs/1703.09194">Sticking the Landing</a>,
+                <br><a href="https://github.com/scikit-optimize/scikit-optimize">Scikit-Optimize</a>,
+                <br><a href="https://arxiv.org/abs/1612.03242">StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks</a>,
+                <br><a href="https://arxiv.org/abs/1611.05705">DSAC - Differentiable RANSAC for Camera Localization</a>,
+                <br><a href="https://arxiv.org/abs/1703.10593">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks</a>,
+                <br><a href="https://arxiv.org/abs/1703.02910">Deep Bayesian Active Learning with Image Data</a>,
+                <br><a href="https://arxiv.org/abs/1612.03242">StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>5 Apr 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWaTNPZ2RvZFpfNVk"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/E.Skordos.html">Stratos Skordos</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1604.02703">Synthesizing Training Images for Boosting Human 3D Pose Estimation</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+            <tr>
+              <th width=10%>29 Mar 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1VuXoCQSoFs_klBAJNzwBOZYFHmFNY7_mgS9NsVMFwk8"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="https://github.com/Garoe">Garoe Dorta</a></th>
+              <th width=60%>-</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>22 Mar 2017</th>
+              <th width=5%></th>
+              <th width=15%><a href="http://thaines.com/">Tom Haines</a></th>
+              <th width=60%>-</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>15 Mar 2017</th>
+              <th width=5%></th>
+              <th width=15%>ICCV Reading Party</th>
+              <th width=60%>ICCV Reading Party</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>8 Mar 2017</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%>VRG Spotlight</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>1 Mar 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=11GWDg3Yd6TyfFVDiTLei60rDLFJ5RNm2XN93cLjySUs"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/D.Worrall/index.html">Daniel Worrall</a></th>
+              <th width=60%><a href="http://ieeexplore.ieee.org/document/7410431/">Multiple-hypothesis affine region estimation with anisotropic LoG filters</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>22 Feb 2017</th>
+              <th width=5%></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/T.Intharah/index.html">Thanapong Intharah</a></th>
+              <th width=60%><a href="http://visual.cs.ucl.ac.uk/pubs/HILC/index.html">Help, It Looks Confusing: GUI Task Automation Through Demonstration and Follow-up Questions</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>15 Feb 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1jXXMruAzMgwu6BCdzFKbtsaOvSJpiJ4dsreOP6eUDtg"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/S.Garbin.html">Stephan Garbin</a></th>
+              <th width=60%><a href="https://arxiv.org/pdf/1612.03969.pdf">Tracking the World State with Recurrent Entity Networks</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>8 Feb 2017</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%>VRG Spotlight</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>1 Feb 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWeUkweFlremdIbUE"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/A.Penate-Sanchez.html">Adri&aacuten Pe&ntildeate Sanchez</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1609.05130">SemanticFusion: Dense 3D Semantic Mapping with Convolutional Neural Networks</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>25 Jan 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWZlY0ZGZDa3FKTEE"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="https://www.ucl.ac.uk/icn/people/attention-and-cognitive-control/attention-accordian/alina-bialkowski">Alina Bialkowski</a></th>
+              <th width=60%><a href="http://cnnlocalization.csail.mit.edu/">Learning Deep Features for Discriminative Localization</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>18 Jan 2017</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1gy5dj11xT1lZ6p0gOt_PWnIIt5-N0Z0yGUJ6czCvZsQ"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/M.Firman/">Michael Firman</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1607.00662">Unsupervised Learning of 3D Structure from Images</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>14 Dec 2016</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%>Secret Santa Extreme Reading Group</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>7 Dec 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1vyoyRA8WJv0gAIzcFktZC3KGFOgKxBzhXE1uWZAJ1lY"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/D.Worrall/index.html">Daniel Worrall</a></th>
+              <th width=60%><a href="https://arxiv.org/pdf/1412.7659v3.pdf">Transformation Properties of Learned Visual Representations</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>30 Nov 2016</th>
+              <th width=5%></th>
+              <th width=15%><a href="https://www.ucl.ac.uk/icn/people/attention-and-cognitive-control/attention-accordian/alina-bialkowski">Alina Bialkowski</a></th>
+              <th width=60%>-</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>16 Nov 2016</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%>VRG Spotlight</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>9 Nov 2016</th>
+              <th width=5%></th>
+              <th width=15%>Reading Party</th>
+              <th width=60%>Reading Party</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>2 Nov 2016</th>
+              <th width=5%></th>
+              <th width=15%><a href='http://www0.cs.ucl.ac.uk/staff/C.Ilisescu/'>Corneliu Ilisescu</a></th>
+              <th width=60%><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Xiao_Track_and_Segment_CVPR_2016_paper.pdf">Track and Segment: An Iterative Unsupervised Approach for Video Object Proposals</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>19 Oct 2016</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%>VRG Spotlight</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>5 Oct 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1IhzhxeXrwsvpuZ2dlt8jmmRTNo4MA0JMSGQK9iijB8U"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/Z.Wojna/CV.pdf">Zbigniew Wojna</a></th>
+              <th width=60%>The latest image recognition and image detection models</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>5 Oct 2016</th>
+              <th width=5%></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/L.Agapito/">Prof. Lourdes Agapito</a></th>
+              <th width=60%><a href="https://www.eventbrite.co.uk/e/lourdes-agapito-inaugural-lecture-tickets-27045602124">**1730-1930** Lourdes Agapito Inaugural Lecture</a></th>
+              <th width=10%>1.02 LT MPEB</th>
+            </tr>
+            <tr>
+              <th width=10%>28 Sep 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1Wz4MK8re68Ek8eK91TWuIqRJ8FLBI9NRCeNaBQbiiGw"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/S.Garbin.html">Stephan Garbin</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1511.05952">Prioritized Experience Replay</a></th>
+              <th width=10%>6.12 MPEB</th>
+            </tr>
+            <tr>
+              <th width=10%>21 Sep 2016</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%><a href='http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Real-Time_Single_Image_CVPR_2016_paper.pdf'>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</a>,
+              <br><a href='https://www.disneyresearch.com/publication/live-texturing-of-augmented-reality-characters/'>Live Texturing of Augmented Reality Characters from Colored Drawings</a>,
+              <br><a href='http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Levy_Live_Repetition_Counting_ICCV_2015_paper.pdf'>Live Repetition Counting</a>,
+              <br><a href='https://arxiv.org/abs/1306.0895'>Sinkhorn Distances: Lightspeed Computation Of Optimal Transportation Distances</a>,
+              <br><a href='https://people.csail.mit.edu/jsolomon/assets/convolutional_w2.compressed.pdf'>Convolutional Wasserstein Distances: Efficient Optimal Transportation on Geometric Domains</a>,
+              <br><a href='http://vovakim.com/data//papers/16_SIGGRAPHAsia_ShapeNetSeg.pdf'>A Scalable Active Framework for Region Annotation in 3D Shape Collections</a>,
+              <br><a href='https://arxiv.org/abs/1511.06856'>Data-dependent Initializations of Convolutional Neural Networks</a>,
+              <br><a href='https://arxiv.org/abs/1609.02993'>Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks</a>,
+              <br><a href='http://arxiv.org/abs/1609.05317'>Deep Kinematic Pose Regression</a>,
+              <br><a href='https://arxiv.org/abs/1507.01526'>Grid Long Short-Term Memory</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>14 Sep 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWMEozSnk1NVVQQ3M"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/d.turmukhambetov/">Daniyar Turmukhambetov</a></th>
+              <th width=60%><a href="https://arxiv.org/pdf/1312.6114v10.pdf">Auto-Encoding Variational Bayes</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>7 Sep 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWUE10Y2hJQV9nZFU"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/A.Penate-Sanchez.html">Adri&aacuten Pe&ntildeate Sanchez</a></th>
+              <th width=60%><a href="https://shapenet.cs.stanford.edu/projects/JointEmbedding/">Joint Embeddings of Shapes and Images via CNN Image Purification</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>31 Aug 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1SxfQVt6XGyl8wmBsWIaa6I6mE68vs8w1qOg4rpY5tuQ"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/D.Tome.html">Denis Tom&eacute</a></th>
+              <th width=60%><a href="http://files.is.tue.mpg.de/black/papers/SMPL2015.pdf">SMPL: A Skinned Multi-Person Linear Model</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>24 Aug 2016</th>
+              <th width=5%></th>
+              <th width=15%><a href="https://scholar.google.co.uk/citations?user=RM2sHhYAAAAJ&hl=en">Chris Russell</a></th>
+              <th width=60%><a href="http://web.stanford.edu/~cqf/papers/Dense_Monocular_Depth_CVPR2016.pdf">Dense Monocular Depth Estimation in Complex Dynamic Scenes</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>17 Aug 2016</th>
+              <th width=5%></th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%>VRG Spotlight</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>10 Aug 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWTFpsc180dndtZGM"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/M.Runz.html">Martin R&uumlnz</a></th>
+              <th width=60%><a href="http://igl.ethz.ch/projects/light-field-segmentation/">Efficient 3D Object Segmentation from Densely Sampled Light Fields with Applications to 3D Reconstruction</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>3 Aug 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1yDEQ54SMUPncIrgxhROyozHCvTQDubFfJ0xgFa8XIk4"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/R.Yu/">Rui Yu</a></th>
+              <th width=60%><a href="http://perceptiveio.com/publications/2016/7/13/fusion4d-real-time-performance-capture-of-challenging-scenes">Fusion4D: Real-time Performance Capture of Challenging Scenes</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>27 Jul 2016</th>
+              <th width=5%>-</th>
+              <th width=15%>VRG Spotlight</th>
+              <th width=60%><a href="https://arxiv.org/abs/1607.06450">Layer Normalization</a>,
+              <br><a href="http://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing">A Deep Learning Framework for Character Motion Synthesis and Editing</a>,
+              <br><a href="http://arxiv.org/abs/1603.03417">Texture Networks: Feed-forward Synthesis of Textures and Stylized Images</a>,
+              <br><a href="https://arxiv.org/abs/1603.08155">Perceptual Losses for Real-Time Style Transfer and Super-Resolution</a>,
+              <br><a href="http://homes.cs.washington.edu/~kemelmi/Transfiguring_Portraits_Kemelmacher_SIGGRAPH2016.pdf">Transfiguring Portraits</a>,
+              <br><a href="http://128.84.21.199/abs/1607.07405">gvnn: Neural Network Library for Geometric Computer Vision</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>20 Jul 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWUTJpUHV3RWdVVGM"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/A.Kanaci.html">Aytac Kanaci</a></th>
+              <th width=60%><a href="http://www.milanton.de/files/cvpr2011/cvpr2011-anton.pdf">Multi-target tracking by continuous energy minimization</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>13 Jul 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B1-HDM82JaJGSU5ZcE1neER6WEk"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/g.brostow/">Dr. Gabriel Brostow</a></th>
+              <th width=60%><a href="http://perceptiveio.com/publications/2016/6/15/cvpr-2016-hyperdepth-learning-depth-from-structured-light-without-matching">HyperDepth: Learning Depth from Structured Light Without Matching</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>06 Jul 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWRWtDeG1zWHBiQTA"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/T.Intharah/index.html">Thanapong Intharah</a></th>
+              <th width=60%><a href="http://www.di.ens.fr/willow/research/instructionvideos/">Unsupervised learning from narrated instruction videos</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>22 Jun 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWSlN5UVY1U2lGNzA" ><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/S.Garbin.html">Stephan Garbin</a></th>
+              <th width=60%>Handling Large Datasets with Alembic and OpenExr</th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>15 Jun 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1C5k7OJy7CM8l8UMOUtu52bL8wEN3CRMDz5pCOAj653E"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/d.worrall/">Daniel Worrall</a></th>
+              <th width=60%><a href="https://papers.nips.cc/paper/3234-topmoumoute-online-natural-gradient-algorithm">Topmoumoute Online Natural Gradient Algorithm</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>8 Jun 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWSXFnMDVpLTBSMFk"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="https://www.ucl.ac.uk/icn/people/attention-and-cognitive-control/attention-accordian/alina-bialkowski">Alina Bialkowski</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1604.06573">Convolutional Two-Stream Network Fusion for Video Action Recognition</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>01 Jun 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWS0VrdXJIU2ZSX1k"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/E.Skordos.html">Stratos Skordos</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1605.05863">Siamese Instance Search For Tracking</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>18 May 2016</th>
+              <th width=5%>-</th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/d.turmukhambetov/">Daniyar Turmukhambetov</a></th>
+              <th width=60%><a href="http://people.csail.mit.edu/nwadhwa/phase-video/">Phase-based Video Motion Processing</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>04 May 2016</th>
+              <th width=5%>-</th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/people/S.Garbin.html">Stephan Garbin</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1410.5401">Neural Turing Machines</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>20 Apr 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=0B5jQgblBJlgWRW8yUkY3amtQUXc"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/O.MacAodha/">Oisin Mac Aodha</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1604.03540">Training Region-based Object Detectors with Online Hard Example Mining</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>06 Apr 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1aD-YrUvON-Xtapu0j4qLzGPqFfugC1WJKlGvWPyZ7no"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/M.Firman/">Michael Firman</a></th>
+              <th width=60%><a href="http://arxiv.org/pdf/1603.05631v1.pdf">Generative Image Modeling using Style and Structure Adversarial Networks</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+            <tr>
+              <th width=10%>23 Mar 2016</th>
+              <th width=5%><a href="https://drive.google.com/open?id=1jvXImlEL6Cs8QmrOeuFsfdwijyFrZMkb4NPAtNZ6wFE"><img src="../img/ppc.png" alt="Link" style=width:20%/></a></th>
+              <th width=15%><a href="http://www0.cs.ucl.ac.uk/staff/d.worrall/">Daniel Worrall</a></th>
+              <th width=60%><a href="https://arxiv.org/abs/1602.07576">Group Equivariant Convolutional Networks</a></th>
+              <th width=10%>405, 66-72GS</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

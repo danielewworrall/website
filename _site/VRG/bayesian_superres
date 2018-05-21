@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">	
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+	 <li><a href="../VRG/VRG.html">Reading Group</a></li>
+  </ul>
+
+  <div class="container">
+	<div class="row">
+      <div id="site-head" class="col-md-12">
+        <h1>Bayesian Image Quality Transfer with CNNs: <br> Exploring Uncertainty in dMRI Super-Resolution</h1>
+        <p class="authors">
+          <div class="author"><a href="https://scholar.google.co.uk/citations?user=NiEvNoEAAAAJ&hl=en&oi=ao">Ryutaro Tanno</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/D.Worrall/' title='Daniel Worrall'>Daniel Worrall</a></div>
+          <div class="author"><a href="http://www0.cs.ucl.ac.uk/people/Aurobrata.Ghosh.html">Aurobrata Ghosh</a></div>
+          <div class="author"><a href="https://scholar.google.co.uk/citations?user=TzQ2nZAAAAAJ&hl=en&oi=ao">Enrico Kaden</a></div>
+          <div class="author"><a href="https://www.ndcn.ox.ac.uk/team/stamatios-sotiropoulos">Stamatios N. Sotiropoulos</a></div>
+          <div class="author"><a href="https://www.microsoft.com/en-us/research/people/antcrim/">Antonio Criminisi</a></div>
+          <div class="author"><a href="http://www0.cs.ucl.ac.uk/staff/D.Alexander/">Daniel Alexander</a></div>
+        </p>
+        <p>University College London<br></p>
+        <b>Oral at MICCAI 2017 and winner of Young Scientist Award</b>
+      </div>
+    </div>
+	 <br>
+    <div class="row">
+      <div id="results" class="col-md-offset-1 col-md-10 col-md-offset-1">
+        <img src="img/banner.png" alt="results image"/>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div id="abstract" class="col-md-offset-2 col-md-8
+    col-md-offset-2"> <p class="abstract" align="justify"><b>Abstract</b> In this work, we
+    investigate the value of uncertainty modelling in 3D super-resolution with
+    convolutional neural networks (CNNs). Deep learning has shown success in a
+    plethora of medical image transformation problems, such as super-resolution
+    (SR) and image synthesis. However, the highly ill-posed nature of such
+    problems results in inevitable ambiguity in the learning of networks. We
+    propose to account for intrinsic uncertainty through a per-patch
+    heteroscedastic noise model and for parameter uncertainty through
+    approximate Bayesian inference in the form of variational dropout. We show
+    that the combined benefits of both lead to the state-of-the-art performance
+    SR of diffusion MR brain images in terms of errors compared to ground
+    truth. We further show that the reduced error scores produce tangible
+    benefits in downstream tractography. In addition, the probabilistic nature
+    of the methods naturally confers a mechanism to quantify uncertainty over
+    the super-resolved output. We demonstrate through experiments on both
+    healthy and pathological brains the potential utility of such an
+    uncertainty measure in the risk assessment of the super-resolved images for
+    subsequent clinical use.</p>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+      <br>
+
+      <div class="col-md-4 download">
+		  <center>
+			 <a href="https://arxiv.org/abs/1705.00664">
+				<img class="img-responsive paper-thumbnail" src="img/paper_thumbnail.png" alt="paper thumbnail" width=210/>
+				Paper - [1.9 MB]
+			 </a>
+		  </center>
+      </div>
+
+		<div class="col-md-4 download">
+		  <center>
+			 <a href="./talks/MICCAIOral2017.pdf">
+				<img class="img-responsive paper-thumbnail" src="img/slides_thumbnail.png" alt="paper thumbnail" width=210/>
+				Slides - [3.4 MB]
+			 </a>
+		  </center>
+      </div>
+
+      <div class="col-md-4 download">
+		  <center>
+			 <a href="depth_prediction_code.zip">
+				<img class="img-responsive paper-thumbnail" src="img/code_thumbnail.png" alt="code thumbnail" width=210/>
+				Code - [Coming Soon]
+			 </a>
+		  </center>
+      </div>
+    </div>
+
+
+
+    <br>
+    <div class="row">
+<pre class="col-md-offset-2 col-md-8">@ARTICLE{Tanno2017BIQTCNN,
+   author = {{Tanno}, R. and {Worrall}, D.~E. and {Ghosh}, A. and {Kaden}, E. and
+	{Sotiropoulos}, S.~N. and {Criminisi}, A. and {Alexander}, D.~C.
+	},
+    title = "{Bayesian Image Quality Transfer with CNNs: Exploring Uncertainty in dMRI Super-Resolution}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1705.00664},
+ primaryClass = "cs.CV",
+ keywords = {Computer Science - Computer Vision and Pattern Recognition},
+     year = 2017,
+    month = may,
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170500664T},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}</pre>
+    </div>
+  </div>
+</body>
+
+</html>

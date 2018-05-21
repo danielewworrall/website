@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+	 <li><a href="../VRG/VRG.html">Reading Group</a></li>
+  </ul>
+	
+  <div class="container">
+	<div class="row">
+      <div id="site-head" class="col-md-12">
+        <h1>Automated Optic Disc Localization In The Neonatal Fundus Image</h1>
+        <p class="authors">
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/D.Worrall/' title='Daniel Worrall'>Daniel Worrall</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/g.brostow/' title='Gabriel J. Brostow'>Gabriel J. Brostow</a></div>
+          <div class="author">Clare Wilson</div>
+        </p>
+        <p>University College London<br></p>
+        <b>ARVO 2016</b>
+      </div>
+    </div>
+	 <br>
+    <div class="row">
+      <div id="results" class="col-md-offset-1 col-md-10 col-md-offset-1">
+        <img src="img/results.png" alt="results image"/>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div id="abstract" class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <p class="abstract" align="justify"><b>Purpose</b>: Accurate OD localization algorithms abound for adult fundus images. These same algorithms fail dismally on the neonatal fundus, which contains high levels of imaging artefacts, due to: equipment and procedural artefacts (e.g. reflections and blurring), and inter-subject and over time intra-subject morphological differences. We addressed this lacuna in the space of registration algorithms, building an accurate automated OD localization algorithm for neonatal fundus images, robust to high inter-image variation.</p>
+
+        <p class="abstract" align="justify"><b>Method</b>: We approached the problem from a machine learning viewpoint. Images are first high pass filtered to remove intra- and inter-image illumination and color variation. These images are then input to an off-the-shelf pretrained implementation of a convolutional neural network (CNN), projecting the images into a rich, multi-scale feature space representation. These CNN feature maps are resized in their two spatial-dimensions and stacked into a 1376-dimensional deep per-pixel feature vector or <i>hypercolumn</i> (HC). For memory reasons, HC patches are then subsampled to form a 8x8x400-dimensional feature descriptor and then fed into a Hough Forest, a statistical model, regressing the offset of the OD center from the specific region of the fundus, collocated with the HC patch. The Hough Forest was trained on a balanced set of 40000 randomly selected patches from 100 training images with marked OD centers and its hyperparameters were tuned using cross-validation on a set of 200 validation images, new hyperparameters proposed by an off-the-shelf hyperparameter optimizer.</p>
+
+        <p class="abstract" align="justify"><b>Results</b>: The system was tested on a separate test set of 1464 retinal images, successfully localizing 1417 (96.6%) images and failing on 47 (3.3%). A successful localization is measured as estimating the center to lie within the perimeter of the OD. The test set displays moderate levels of covariate shift from the training and validation sets, indicating high robustness to inter-subject differences in retinal appearance.</p>
+
+        <p class="abstract" align="justify"><b>Conclusion</b>: This algorithm performs successful OD localization in the neonatal fundus image. A statistical machine learning-based approach permits the localization of the OD in the neonatal fundus. This is the first step in automated vessel analysis for vascular retinopathies.</p>
+
+
+      </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+      <br>
+	  <div class=col-md-3></div>
+	  
+      <div class="col-md-3 download">
+        <a href="od_localization_poster.pdf">
+          <img class="img-responsive paper-thumbnail" src="img/poster_thumbnail.png" alt="paper thumbnail"/>
+          Poster - [28 MB]
+        </a>
+      </div>
+
+      <div class="col-md-3 download">
+        <a href="depth_prediction_code.zip">
+          <img class="img-responsive paper-thumbnail" src="img/code_thumbnail.png" alt="code thumbnail"/>
+          Code - [Coming Soon]
+        </a>
+      </div>
+	  
+	  <div class=col-md-3></div>
+    </div>
+	
+
+
+    <br>
+    <div class="row">
+<pre class="col-md-offset-2 col-md-8">
+@article{worrall2016automated,
+  title={Automated Optic Disk (OD) Localization in The Neonatal Fundus Image},
+  author={Worrall, Daniel Ernest and Brostow, Gabriel and Wilson, Clare},
+  journal={Investigative Ophthalmology \& Visual Science},
+  volume={57},
+  number={12},
+  pages={5939--5939},
+  year={2016},
+  publisher={The Association for Research in Vision and Ophthalmology}
+}
+</pre>
+    </div>
+  </div>
+</body>
+
+</html>

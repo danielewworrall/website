@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../VRG/VRG.html">Reading Group</a></li>
+  </ul>
+
+  <div class="container">
+    <div class="row">
+      <div id="site-head" class="col-md-12">
+        <h1>Interpretable Transformations with Encoder-Decoder Networks</h1>
+        <p class="authors">
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/D.Worrall/' title='Daniel Worrall'>Daniel Worrall</a></div>
+          <div class="author"><a href="http://stephangarbin.com">Stephan Garbin</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/d.turmukhambetov/' title='Daniyar Turmukhambetov'>Daniyar Turmukhambetov</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/g.brostow/' title='Gabriel J. Brostow'>Gabriel J. Brostow</a></div>
+        </p>
+        <p>University College London<br></p>
+        <b>Accepted to ICCV 2017</b>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div id="results" class="col-md-4">
+        <h3>Decoded 1 and latents</h3>
+        <img src="img/MNIST_gifs/dec1.gif" width=100%/>
+      </div>
+      <div id="results" class="col-md-4">
+        <h3>Rotating 4 and encoding</h3>
+        <img src="img/MNIST_gifs/dec4.gif" width=100%/>
+      </div>
+      <div id="results" class="col-md-4">
+        <h3>Decoded 7 and latents</h3>
+        <img src="img/MNIST_gifs/dec7.gif" width=100%/>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div id="abstract" class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <p class="abstract" align="justify"><b>Abstract</b> 
+          Deep feature spaces have the capacity to encode complex
+          transformations of their input data. However, understanding
+          the relative feature-space relationship between two transformed
+          encoded images is difficult. For instance, what is the relative
+          feature space relationship between two rotated images? What
+          is decoded when we interpolate in feature space? Ideally, we
+          want to disentangle confounding factors, such as pose, appearance,
+          and illumination, from object identity. Disentangling these
+          is difficult because they interact in very nonlinear ways. We
+          propose a simple method to construct a deep feature space,
+          with explicitly disentangled representations of several known
+          transformations. A person or algorithm can then manipulate
+          the disentangled representation, for example, to re-render an
+          image with explicit control over parameterized degrees of freedom.
+          The feature space is constructed using a transforming
+          encoder-decoder network with a custom feature transform layer,
+          acting on the hidden representations. We demonstrate the advantages
+          of explicit disentangling on a variety of datasets and
+          transformations, and as an aid for traditional tasks, such as
+          classification.
+        </p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <br>
+      <div class=col-md-3></div>
+        <div class="col-md-3 download">
+        <a href="./pdfs/WorrallEtAl2017b.pdf">
+        <img class="img-responsive paper-thumbnail" src="img/paper_thumbnail.png" alt="paper thumbnail" width=210/>
+          Paper - [836 kB]
+        </a>
+      </div>
+
+      <div class="col-md-3 download">
+        <a href="./pdfs/WorrallEtAl2017b_supplement.pdf">
+        <img class="img-responsive paper-thumbnail" src="img/supp_mat_thumbnail.png" alt="paper thumbnail" width=210/>
+          Supplement - [135 kB]
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <pre class="col-md-offset-2 col-md-8">@InProceedings{Worrall_2017_ICCV,
+author = {Worrall, Daniel E. and Garbin, Stephan J. and Turmukhambetov, Daniyar and Brostow, Gabriel J.},
+title = {Interpretable Transformations With Encoder-Decoder Networks},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+}
+      </pre>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>

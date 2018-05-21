@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+	 <li><a href="../VRG/VRG.html">Reading Group</a></li>
+  </ul>
+	
+  <div class="container">
+	<div class="row">
+      <div id="site-head" class="col-md-12">
+        <h1>Automated Retinopathy of Prematurity Case Detection with Convolutional Neural Networks</h1>
+        <p class="authors">
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/D.Worrall/' title='Daniel Worrall'>Daniel Worrall</a></div>
+		  <div class="author">Clare Wilson</div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/g.brostow/' title='Gabriel J. Brostow'>Gabriel J. Brostow</a></div>
+        </p>
+        <p>University College London<br></p>
+        <b>MICCAI 2016, DLMIA Workshop</b>
+      </div>
+    </div>
+	 <br>
+    <div class="row">
+      <div id="results" class="col-md-offset-1 col-md-10 col-md-offset-1">
+        <img src="img/results.jpg" alt="results image"/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="abstract" class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <p class="abstract" align="justify"><b>Abstract</b> Retinopathy of Prematurity (ROP) is
+		an ocular disease observed in premature babies, considered one of the
+		largest preventable causes of childhood blindness. Problematically, the
+		visual indicators of ROP are not well understood and neonatal fundus
+		images are usually of poor quality and resolution. We investigate two
+		ways to aid clinicians in ROP detection using convolutional neural
+		networks (CNN): (1) We fine-tune a pretrained GoogLeNet as a ROP
+		detector and with small modifications also return an approximate
+		Bayesian posterior over disease presence. To the best of our knowledge,
+		this is thefirst completely automated ROP detection system. (2) To
+		further aid grading, we train a second CNN to return novel feature map
+		visualizations of pathologies, learned directly from the data. These
+		feature maps highlight discriminative information, which we believe may
+		be used by clinicians with our classifier to aid in screening.</p>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+      <br>
+	  <div class=col-md-3></div>
+	  
+      <div class="col-md-3 download">
+        <a href="./worrall_rop_2016.pdf">
+          <img class="img-responsive paper-thumbnail" src="img/paper_thumbnail.jpg" alt="paper thumbnail" width=210/>
+          Paper - [1.9 MB]
+        </a>
+      </div>
+
+      <div class="col-md-3 download">
+        <a href="depth_prediction_code.zip">
+          <img class="img-responsive paper-thumbnail" src="img/code_thumbnail.png" alt="code thumbnail" width=210/>
+          Code - [Coming Soon]
+        </a>
+      </div>
+	  
+	  <div class=col-md-3></div>
+    </div>
+	
+
+
+    <br>
+    <div class="row">
+<pre class="col-md-offset-2 col-md-8">@inproceedings{worrall2016automated,
+  title={Automated Retinopathy of Prematurity Case Detection with Convolutional Neural Networks},
+  author={Worrall, Daniel E and Wilson, Clare M and Brostow, Gabriel J},
+  booktitle={International Workshop on Large-Scale Annotation of Biomedical Data and Expert Label Synthesis},
+  pages={68--76},
+  year={2016},
+  organization={Springer}
+}</pre>
+    </div>
+  </div>
+</body>
+
+</html>

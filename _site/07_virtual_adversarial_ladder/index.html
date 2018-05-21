@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../VRG/VRG.html">Reading Group</a></li>
+  </ul>
+
+  <div class="container">
+    <div class="row">
+      <div id="site-head" class="col-md-12">
+        <h1>Virtual Adversarial Ladder Networks For Semi-supervised Learning</h1>
+        <p class="authors">
+          <div class="author"><a href='http://www.sakishinoda.com/' title='Saki Shinoda'>Saki Shinoda</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/D.Worrall/' title='Daniel Worrall'>Daniel Worrall</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/g.brostow/' title='Gabriel J. Brostow'>Gabriel J. Brostow</a></div>
+        </p>
+        <p>University College London<br></p>
+        <b>Accepted to <a href="https://lld-workshop.github.io/">NIPS 2017 LLD Workshop</a></b>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div id="results" class="col-md-12">
+        <h3>Encoder architectures</h3>
+        <img src="img/banner.png" width=100%/>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div id="abstract" class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <p class="abstract" align="justify"><b>Abstract</b> 
+        Semi-supervised learning (SSL) partially circumvents the high cost of labelling data
+        by augmenting a small labeled dataset with a large and relatively cheap unlabeled
+        dataset drawn from the same distribution. This paper offers a novel interpretation of
+        two deep learning-based SSL approaches, ladder networks and virtual adversarial
+        training (VAT), as applying distributional smoothing to their respective latent
+        spaces. We propose a class of models that fuse these approaches. We achieve
+        near-supervised accuracy with high consistency on the MNIST dataset using just 5
+        labels per class: our best model, ladder with layer-wise virtual adversarial noise
+        (LVAN-LW), achieves 1.42&#37 &plusmn 0.12 average error rate on the MNIST test set, in
+        comparison with 1.62&#37 &plusmn 0.65 reported for the ladder network. On adversarial
+        examples generated with L2-normalized fast gradient method, LVAN-LW trained
+        with 5 examples per class achieves average error rate 2.4&#37 &plusmn 0.3 compared to
+        68.6&#37 &plusmn 6.5 for the ladder network and 9.9&#37 &plusmn 7.5 for VAT.
+        </p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <br>
+      <div class=col-md-5></div>
+        <div class="col-md-3 download">
+        <a href="https://arxiv.org/abs/1711.07476"><img class="img-responsive paper-thumbnail" src="img/paper_thumbnail.png" alt="paper thumbnail" width=210/>Paper</a>
+      </div>
+
+    </div>
+    <br>
+    <div class="row">
+      <pre class="col-md-offset-2 col-md-8">@InProceedings{Shinoda_2017_NIPSLLD,
+author = {Shinoda, Saki and Worrall, Daniel E. and Brostow, Gabriel J.},
+title = {Virtual Adversarial Ladder Networks For Semi-supervised Learning},
+booktitle = {NIPS LLD Workshop},
+month = {Dec},
+year = {2017}
+}
+      </pre>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
