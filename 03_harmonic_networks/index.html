@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <title>DW | UCL</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+</head>
+
+<body id="homepage">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+	 <li><a href="../VRG/VRG.html">Reading Group</a></li>
+  </ul>
+
+  <div class="container">
+	<div class="row">
+      <div id="site-head" class="col-md-12">
+        <h1>Harmonic Networks: Deep Translation and Rotation Equivariance</h1>
+        <p class="authors">
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/D.Worrall/' title='Daniel Worrall'>Daniel Worrall</a></div>
+		  <div class="author"><a href="http://stephangarbin.com">Stephan Garbin</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/d.turmukhambetov/' title='Daniyar Turmukhambetov'>Daniyar Turmukhambetov</a></div>
+          <div class="author"><a href='http://www0.cs.ucl.ac.uk/staff/g.brostow/' title='Gabriel J. Brostow'>Gabriel J. Brostow</a></div>
+        </p>
+        <p>University College London<br></p>
+        <b>Accepted to CVPR 2017</b>
+      </div>
+    </div>
+	 <br>
+    <div class="row">
+      <div id="resultsCnn" class="col-md-4">
+        <h3> Regular CNN </h3>
+        <img src="img/cnn.gif"/>
+      </div>
+      <div id="resultsComp" class="col-md-4">
+        <h3> CNN - HNet Comparison </h3>
+        <img src="img/comp.gif"/>
+      </div>
+      <div id="resultsHnet" class="col-md-4">
+        <h3> HNet </h3>
+        <img src="img/hnet.gif"/>
+      </div>
+    </div>
+	<br>
+
+    <div class="row">
+      <div id="abstract" class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <p class="abstract" align="justify"><b>Abstract</b> Translating or rotating an input image should not affect the results
+    of many computer vision tasks. Convolutional neural networks (CNNs)
+    are already translation equivariant: input image translations produce
+    proportionate feature map translations. This is not the case for
+    rotations. Global rotation equivariance is typically sought through
+    data augmentation, but patch-wise equivariance is more difficult.
+    We present Harmonic Networks or H-Nets, a CNN exhibiting equivariance
+    to patch-wise translation and 360-rotation. We achieve this by replacing
+    regular CNN filters with circular harmonics, returning a maximal
+    response and orientation for every receptive field patch.
+
+    H-Nets use a rich, parameter-efficient and low computational complexity
+    representation, and we show that deep feature maps within the network
+    encode complicated rotational invariants. We demonstrate that our layers
+    are general enough to be used in conjunction with the latest architectures
+    and techniques, such as deep supervision and batch normalization. We also
+    achieve state-of-the-art classification on rotated-MNIST, and competitive
+    results on other benchmark challenges.</p>
+      </div>
+    </div>
+    <br><br>
+	<div class="row">
+      <div class="video col-md-8 col-md-offset-2">
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/qoWAFBYOtoU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+	<br><br>
+    <div class="row">
+      <br>
+	  <div class=col-md-3></div>
+      <div class="col-md-2 download">
+        <a href="https://arxiv.org/pdf/1612.04642.pdf">
+          <img class="img-responsive paper-thumbnail" src="img/paper_thumbnail.png" alt="paper thumbnail" width=210/>
+          Paper - [4.3 MB]
+        </a>
+      </div>
+
+	  <div class="col-md-2 download">
+        <a href="./pdfs/hnets-supplement.pdf">
+          <img class="img-responsive paper-thumbnail" src="img/supp_mat_thumbnail.png" alt="paper thumbnail" width=210/>
+          Supplement - [231 kB]
+        </a>
+      </div>
+
+      <div class="col-md-2 download">
+        <a href="https://github.com/deworrall92/harmonicConvolutions">
+          <img class="img-responsive paper-thumbnail" src="img/code_thumbnail.png" alt="code thumbnail" width=210/>
+          Github Code Repository
+        </a>
+      </div>
+	  <div class=col-md-3></div>
+    </div>
+
+
+  <br>
+    <div class="row">
+	  <pre class="col-md-offset-2 col-md-8">@InProceedings{Worrall_2017_CVPR,
+author = {Worrall, Daniel E. and Garbin, Stephan J. and Turmukhambetov, Daniyar and Brostow, Gabriel J.},
+title = {Harmonic Networks: Deep Translation and Rotation Equivariance},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2017}
+}
+
+</pre>
+    </div>
+
+
+    <div class="row">
+      <footer class="col-md-12">
+        <div class='prepend-top prepend-4 span-17 last'>	Visual Computing - University College London - Gower Street - London - WC1E 6BT - +44 (0)20 7679 0221 Copyright &copy; 1999-2016 UCL.</div>
+        <div class='prepend-9 span-8 last'><a href='http://www.ucl.ac.uk/disclaimer/' title='Disclaimer'>Disclaimer</a> | <a href='http://www.ucl.ac.uk/accessibility/' title='Accessibility'>Accessibility</a> | <a href='http://www.ucl.ac.uk/priv/' title='Privacy'>Privacy</a> | <a href='http://www.ucl.ac.uk/advanced-search/' title='UCL Search'>UCL Search</a> | <a href='http://www.cs.ucl.ac.uk/help.html' title='UCL-CS Help'>UCL-CS Help</a></div>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>

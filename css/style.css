@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A6BCCA;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FFDBAD;
+    text-decoration: none;
+}
+
+
+td {
+    padding: 0 15px 5px 15px
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px
+}
+
+p.abstract {
+    font-family: sans-serif;
+    font-size:16px
+}
+h1 {
+    font-family: 'Alfa Slab One', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#site-head {
+  text-align: center;
+  width: 100%;
+}
+
+.author {
+  width: 10%;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
